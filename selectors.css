@@ -1,0 +1,52 @@
+header {
+	border: 1px solid pink;
+}
+
+nav li {
+	display: inline-block;
+	list-style-type: none;
+	margin:0 10px;
+}
+
+.disabled {
+	color: grey;
+}
+
+
+a.disabled, a span.disabled {
+	color: purple;
+}
+
+a span.active {
+	color: yellow;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+.b-red {
+	background-color: red;
+}
+
+.b-blue {
+	background-color: blue;
+}
+
+.child {
+	border: 1px solid;
+	border-radius: 5px;
+}
+
+.promo {
+	font-weight: bold;
+	color: gold;
+}
+
+input {
+	height: 25px;
+}
